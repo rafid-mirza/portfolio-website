@@ -26,7 +26,7 @@ const Experience = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-1 gap-8 px-4">
             <div className="sm:text-left text-s">
                 <p>
-                    Position: Undergraduate Research Assistant (Sept 2022 - Present)
+                    Position: Undergraduate Research Assistant (Sept 2022 - Dec 2022)
                 </p>
                 <p>
                     Description:
@@ -54,17 +54,17 @@ const Experience = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-1 gap-8 px-4">
             <div className="sm:text-left text-s">
                 <p>
-                    Position: Undergraduate Teaching Assistant (Aug. 2022 - Present)
+                    Position: Undergraduate Teaching Assistant (Aug 2022 - Dec 2022)
                 </p>
                 <p>
                     Description:
                 </p>
                 <ul style={{padding:"1", listStyle:"square", marginLeft:"18px", marginBottom: "20px"}}>
                     <li style={{cursor: "default"}}>
-                    Provides guidance and instruction to students of Computer Architecture course in fundamental topics such as: x86 Assembly, caches/cache optimization, bit-fiddling, virtual memory, pipelining processors, and code optimization techniques
+                    Provided guidance and instruction to students of Computer Architecture course in fundamental topics such as: x86 Assembly, caches/cache optimization, bit-fiddling, virtual memory, pipelining processors, and code optimization techniques
                     </li>
                     <li style={{cursor: "default"}}>
-                      Leading office hours and lab section of roughly 50 students to help with programming assignments such as the disassembling and understanding x86 Assembly code and optimization of C code with caches and Intel Intrinsics
+                    Led office hours and lab section of roughly 50 students to help with programming assignments such as the disassembling and understanding x86 Assembly code and optimization of C code with caches and Intel Intrinsics
                     </li>
                 </ul>
             </div>
