@@ -7,7 +7,7 @@ const Skills = ({content}) => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className=' w-full flex justify-center items-center flex-col mb-7'>
             <p className="text-4xl font-bold inline border-b-4 border-[#ac3124] text-center ">
-                Skills
+                Skills and Coursework
             </p>
             <p className="py-4 text-2xl">{content?.fields.skill_header}</p>
         </div>
@@ -15,7 +15,7 @@ const Skills = ({content}) => {
             {content?.fields.skills.map((skill, index) => {
                 return (
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#ac3124]" key={index}>
-                        <p className="my-4">{skill.skill_name}</p>
+                        <p className="my-4">{skill.terminology}</p>
                     </div>
                 );
             })}

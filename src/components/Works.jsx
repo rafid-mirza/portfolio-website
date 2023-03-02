@@ -6,14 +6,14 @@ const Works = ({content}) => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
         <p className="text-4xl font-bold inline border-b-4 font-bold text-white border-[#ac3124]">
-            Works
+            Projects
         </p>
         <p className="py-6 text-2xl">{content?.fields.work_header}</p>
         </div>
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {/* Grid Item */}
-            {content?.fields.work.map((work, index) => {
+            {content?.fields.works.map((work, index) => {
                 return (
                     <div
                     style={{ backgroundImage: `url(${work.work_image})` }}
@@ -29,12 +29,12 @@ const Works = ({content}) => {
                             {work.work_description}
                         </p>
                         <div className="pt-8 text-center">
-                            <a href={work.work_github}>
+                            <a href={work.demo}>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                 Demo
                                 </button>
                             </a>
-                            <a href={work.work_link}>
+                            <a href={work.github_url}>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                     Code
                                 </button>

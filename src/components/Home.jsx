@@ -15,7 +15,7 @@ const Home = ({content}) => {
             {content?.fields.landing_caption}
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-            {content?.fields.landing_text}
+            {content?.fields.landing_main_text}
         </p>
         <div>
           <Link

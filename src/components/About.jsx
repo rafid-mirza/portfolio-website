@@ -26,7 +26,7 @@ const About = ({content}) => {
             <div>
                 <p>
                     {" "}
-                    {content?.fields.about_text}
+                    {content?.fields.about_main_details}
                 </p>
             </div>
         </div>

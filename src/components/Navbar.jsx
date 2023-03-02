@@ -10,7 +10,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import resume from '../assets/Mirza_Resume_1123.pdf'
+import resume from '../assets/219Resume.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -34,13 +34,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to='experience' smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
           <Link to='skills' smooth={true} duration={500}>
-            Skills
+            Skills and Coursework
           </Link>
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         {/* <li>
